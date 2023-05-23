@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Mueckenfang</string>
+    <string name="welcomeMessage">Willkommen beim Mückenfang</string>
+    <string name="start">Start</string>
+    <string name="gameover">Das Spiel ist aus! GAME OVER</string>
+    <string name="flyContentDescription">graphic of a fly</string>
+</resources>
