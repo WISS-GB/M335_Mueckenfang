@@ -7,7 +7,7 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.Aufgabe21">
+        android:theme="@style/Theme.Mueckenfang">
         <activity
             android:name="m335.mueckenfang.GameActivity"
             android:exported="false" />
