@@ -1,7 +1,9 @@
 package m335.mueckenfang;
 
 import android.annotation.SuppressLint;
+import android.app.Activity;
 import android.app.Dialog;
+import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 import android.view.Gravity;
@@ -182,6 +184,13 @@ public class GameActivity extends AppCompatActivity implements View.OnClickListe
     private void gameOver() {
         Dialog dialog = new Dialog(this, android.R.style.Theme_Translucent_NoTitleBar_Fullscreen);
         dialog.setContentView(R.layout.gameover);
+        dialog.findViewById(R.id.btnOk).setOnClickListener((View view) -> {
+            Intent resultIntent = new Intent();
+            resultIntent.putExtra("punkte", punkte);
+            setResult(Activity.RESULT_OK, resultIntent);
+            // GameActivity beenden
+            finish();
+        });
         dialog.show();
         spielLaeuft = false;
     }
