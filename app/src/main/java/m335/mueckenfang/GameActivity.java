@@ -178,6 +178,7 @@ public class GameActivity extends AppCompatActivity implements View.OnClickListe
     public void onClick(View muecke) {
         gefangeneMuecken++;
         punkte += 100;
+        spielbereich.removeView(muecke);
         bildschirmAktualisieren();
     }
 
