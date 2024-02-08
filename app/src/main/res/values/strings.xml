@@ -1,9 +1,9 @@
 <resources>
-    <string name="app_name">Mueckenfang</string>
-    <string name="welcomeMessage">Willkommen beim Mückenfang</string>
-    <string name="start">Start</string>
-    <string name="gameover">Das Spiel ist aus! GAME OVER</string>
-    <string name="flyContentDescription">graphic of a fly</string>
-    <string name="highscoreMessage">Gib deinen Namen fürs High Score an:</string>
-    <string name="btnSave">Speichern</string>
+    <string name="app_name">FlySwatter</string>
+    <string name="welcomeMessage">Welcome to the FlySwatter game</string>
+    <string name="start" translatable="false">Start</string>
+    <string name="gameover">GAME OVER</string>
+    <string name="flyContentDescription" translatable="false">graphic of a fly</string>
+    <string name="highscoreMessage">Provide your name for your highscore:</string>
+    <string name="btnSave">Save</string>
 </resources>
