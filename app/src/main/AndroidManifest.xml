@@ -10,7 +10,8 @@
         android:theme="@style/Theme.Mueckenfang">
         <activity
             android:name="m335.mueckenfang.GameActivity"
-            android:exported="false" />
+            android:exported="false"
+            android:screenOrientation="portrait"/>
         <activity
             android:name="m335.mueckenfang.MainActivity"
             android:exported="true">
